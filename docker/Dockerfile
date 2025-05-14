@@ -6,7 +6,7 @@ MAINTAINER Ivan Font <ifont@redhat.com>
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-# Clone game source code
+# Clone game source code - update my repo
 RUN git clone https://github.com/omor13/pacman_app.git .
 
 # Install app dependencies
